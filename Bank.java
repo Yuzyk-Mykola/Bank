@@ -13,7 +13,7 @@ public class Bank {
         // Connecting the savings account to the checking account
         ((Saving) accounts[2]).connect(accounts[1]);
 
-        // Example usage of the currency conversion API
+        // Currency conversion API
         double exchangeRate = CurrencyConverter.getExchangeRate("USD", "EUR");
         System.out.println("Exchange rate from USD to EUR: " + exchangeRate);
 
